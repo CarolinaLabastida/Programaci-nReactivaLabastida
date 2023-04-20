@@ -1,0 +1,18 @@
+<app-toolbar [InputSideNav]="sidenav"></app-toolbar>
+<mat-sidenav-container class="menu-container">
+    <mat-sidenav #sidenav class="menu-sidenav" mode="push"
+    [fixedInViewport]="false">
+    <div id="admin-sidebar">
+      <ul class="sidenav admin-sidenav list-unstyled">
+          <li><a href="#"><mat-icon class="menuIcons" fontIcon="home"></mat-icon> Inicio</a></li>  
+          <li class="active"><a href="#"><mat-icon class="menuIcons" fontIcon="group"></mat-icon> Alumnos</a></li>  
+          <li><a href="#" ><mat-icon class="menuIcons" fontIcon="collections_bookmark"></mat-icon> Clases</a></li>    
+          <li><a href="#" ><mat-icon class="menuIcons" fontIcon="school"></mat-icon> Cursos</a></li>              
+      </ul>
+  </div> 
+    </mat-sidenav>
+    <div class="menu-sidenav-content">
+     <app-index></app-index>
+          </div>
+        
+  </mat-sidenav-container>

@@ -1,0 +1,31 @@
+.menu-container {
+    height: calc(100vh - 64px);
+  }
+   
+  .menu-sidenav {
+    width: 180px;
+  }
+
+.menu-sidenav-content{
+  padding: 2rem;
+}
+    .admin-sidenav a {
+        text-decoration: none; 
+    }
+    .admin-sidenav li:hover, .active{
+      text-decoration: none;
+      background-color: #5c72a9;      
+      a{
+      color: white;
+      }
+    }
+    .admin-sidenav li {
+    padding: .5rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #8b8b8bb0; 
+    }
+
+    .menuIcons{
+      vertical-align: bottom;
+    }
+    
